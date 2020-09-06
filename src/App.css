@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500;800&family=News+Cycle:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pragati+Narrow&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 .App {
   position:relative;
@@ -45,22 +45,17 @@ nav {
   width:100vw;
   align-items:center;
   justify-content:space-between;
-  padding:0 2rem;
+  padding:0 1.3rem;
 }
-.logo {
+.logo h4{
   border:2px solid rgb(90,169,130);
- /* border-radius:50%;*/
-  width:60px;
-  height:60px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
   border-radius:50%;
-}
-.logo h4 {
   font-family:'Catamaran', sans-serif;
   font-weight:500;
   font-size:30px;
+  width:65px;
+  height:65px;
+  display:flex;align-items:center;justify-content:center;
 }
 .logo span {
   width:5px;
@@ -94,13 +89,13 @@ nav {
 
 /*Banner Style*/
 .banner {
-  padding:0 2rem;
+  padding:0 1.3rem;
   min-height: calc(100vh - 100px); 
   font-size:2rem;
   display:flex;
   flex-direction:column;
   justify-content:center;
-  max-width:700px;
+  max-width:500px;
 }
 .hi {
   display:flex;
@@ -133,3 +128,114 @@ p{
   to {transform:rotate(0deg);}
 }
 
+.project {
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  margin:7rem 0;
+  flex-direction:column;
+  min-height:200px;
+}
+.project div.image {
+  --w: calc(50vw - 2rem);
+  width:var(--w);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  --d:calc(80 / 45);
+  height:calc(var(--d) * var(--w));
+  border-radius:10px 0 0 10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.project div.image:nth-child(2) {
+    border-radius:0 10px 10px 0;
+}
+.projects-area {
+  padding:0 1.3rem;
+}
+.project h1 {
+  color:rgba(255,255,255,0.4);
+  font-family:"Roboto";
+  font-size:15rem;
+}
+h1 {
+  font-size:2.4rem;
+  color:rgb(90,169,130);
+  margin:30px 0;
+  font-family:"Catamaran";
+}
+h2 {
+  color:white;
+  font-family:"Catamaran";
+  font-size:2.2rem;
+  font-weight:800;
+}
+.images-part {
+  display:flex;
+  width:calc(100vw - 2.6rem);
+  justify-content:space-between;
+}
+.year {
+  color:rgb(90,169,130);
+  font-family:"Work Sans";
+  font-size:1.7rem;
+}
+.year span {
+  color:white;
+  margin:0 5px;
+}
+
+.technologies, .buttons {
+  display:flex;
+  flex-wrap:wrap;
+}
+.tech {
+  font-family:"Pragati Narrow";
+  background-color:rgba(90,169,130,0.3);
+  color:white;
+  border-radius:5px;
+  padding:5px 10px;
+  margin-right:15px;
+}
+.buttons {
+  width:100%;
+  justify-content:space-between;
+}
+.buttons a {text-decoration:none;}
+button {
+  background-color:rgba(90,169,130);
+  border:none;
+  outline:2px solid rgb(90,169,130);
+  outline-offset:5px;
+  padding:12px;
+  border-radius:4px;
+  outline-radius:4px;
+}
+
+
+@media (max-width:600px) {
+  .project-desc {
+    margin-top:-1.5rem;
+  }
+}
+@media (min-width:601px) {
+  .project div.image {
+    --w:calc(19vw - 2rem);
+    margin:0 13px;
+    width:var(--w);
+    --d:calc(80 / 45);
+    height:calc(var(--d) * var(--w));
+  }
+  .images-part {
+    justify-content:center;
+  }
+  .project {
+    flex-direction:row;
+    align-items:center;
+  }
+  .images-part, .project-desc {
+    width:calc(50vw - 2.6rem);
+  }
+}

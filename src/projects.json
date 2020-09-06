@@ -1,0 +1,71 @@
+[
+  {
+    "id":"01",
+    "name":"Image Reactor App",
+    "year":"2020",
+    "desc":"This is a basic React app. I used it to build on my knowledge of states and lifecycle in React.js. It contains a couple of images and reaction icons (buttons), just as in social media. The user clicks on any reaction icon to react. The app keeps state of the number of each reactions each image component gets.",
+    "technologies":[
+      "CSS3","ReactJS","Bootstrap4"
+    ],
+    "imageSrc1":"imageReactor1",
+    "imageSrc2":"imageReactor2",
+    "githubLink":"",
+    "liveLink":""
+  },
+  {
+    "id":"02",
+    "name":"Scientific Calculator",
+    "year":"2020",
+    "desc":"This is a scientific calculator that implements many of basic scientific calculator operations including trigonometric, hyperbolic, logarithmic and other basic mathematical operations. I used it to build on my knowledge of regular expressions as I used it a lot.",
+    "technologies":[                                    "HTML5","CSS3","JavaScript"
+    ],
+    "imageSrc1":"sciCalc1",
+    "imageSrc2":"sciCalc2",
+    "githubLink":"",
+    "liveLink":""
+  },
+  {                                                   "id":"03",
+    "name":"Weather App",
+    "year":"2020",
+    "desc":"This app gives the user the precise weather condition of any place according to the input. The input could be a country or state or a recognised area in the world.<br /> Data for the app is gotten from openweathermapapi.",
+    "technologies":[                                    "HTML5","CSS3","Javascript","Fetch API(JS)"
+    ],
+    "imageSrc1":"weather1",
+    "imageSrc2":"weather2",
+    "githubLink":"",
+    "liveLink":""
+  },
+  {                                                   "id":"04",
+    "name":"Country Information app",
+    "year":"2020",
+    "desc":"This app uses data from a country API to get basic data about any country in the world. You can select the country's name in the list of country provided or type in the countries name in the search bar.",
+    "technologies":[                                    "HTML5","CSS3","Javascript"         
+    ],
+    "imageSrc1":"country1",
+    "imageSrc2":"country2",
+    "githubLink":"",
+    "liveLink":""
+  },
+  {                                                   "id":"05",
+    "name":"Landing page of Huddle",
+    "year":"2020",
+    "desc":"This is a project challenve from the Frontend Masters website. I did it while learning CSS.",
+    "technologies":[                                    "HTML5","CSS3"
+    ],
+    "imageSrc1":"huddle1",
+    "imageSrc2":"huddle2",
+    "githubLink":"",
+    "liveLink":""
+  },
+  {                                                   "id":"06",
+    "name":"Tictactoe Game",
+    "year":"2020",
+    "desc":"A basic tictactoe game. Developed it to practice my knowledge of the DOM and event handling. The game is a 2 player game.",
+    "technologies":[                                    "HTML","CSS3","JavaScript"
+    ],
+    "imageSrc1":"tictactoe1",
+    "imageSrc2":"tictactoe2",
+    "githubLink":"",
+    "liveLink":""
+  }
+]
