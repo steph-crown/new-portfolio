@@ -1,0 +1,32 @@
+[
+  {
+    "company":"ECX/DSC 30 Days Of Code",
+    "role":"Participated in Python track and finished 4th and 12th overall",
+    "locate":"Remote",
+    "period":"01 Apr 2020 - 31 Apr 2020"
+  },
+  {
+    "company":"DSC Open Hack Week",
+    "role":"Frontend designer Volunteer",
+    "locate":"Remote",
+    "period":"Aug 2020 - Aug 2020"
+  },
+  {
+    "company":"ECX",
+    "role":"Frontend developer intern",
+    "locate":"Lagos (Remote)",
+    "period":"Aug 2020 - Sep 2000"
+  },
+  {
+    "company":"Migrant Solutions",
+    "role":"Fullstack developer intern", 
+    "locate":"Abuja (Remote)",
+    "period":"Aug 2020 - till date"              
+  },
+  {
+    "company":"JSMinna",
+    "role":"Javascript dev intern",              
+    "locate":"Remote",
+    "period":"September 2020 - till date"        
+  }
+]

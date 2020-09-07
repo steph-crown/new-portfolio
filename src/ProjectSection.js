@@ -78,7 +78,7 @@ function ProjectSection() {
   )
   return (
     <div className="projects-area">
-      <h1>Personal Projects</h1>
+      <h1>Projects</h1>
       {allProjects}
     </div>
   )

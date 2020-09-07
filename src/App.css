@@ -1,3 +1,8 @@
+:root {
+  --white:#efefef;
+  --dark:rgba(0,0,20,0.9);	
+  --green:rgb(90,169,130);
+}
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500;800&family=News+Cycle:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pragati+Narrow&display=swap');
@@ -7,8 +12,7 @@
   position:relative;
   /*height:40vh;*/
   overflow: hidden;
-  color:#efefef;
-
+  color:var(--white);
 }
 
 .particles{
@@ -22,12 +26,12 @@
 
 a{
   text-decoration: none;
-  color:rgb(90,169,130);
+  color:var(--green);
 }
 a:hover {
   color:white;
   text-decoration:underline;
-  text-decoration-color:rgb(90,169,130);
+  text-decoration-color:var(--green);
 }
 * {
   margin:0;
@@ -45,10 +49,11 @@ nav {
   width:100vw;
   align-items:center;
   justify-content:space-between;
+  z-index:5;
   padding:0 1.3rem;
 }
 .logo h4{
-  border:2px solid rgb(90,169,130);
+  border:2px solid var(--green);
   border-radius:50%;
   font-family:'Catamaran', sans-serif;
   font-weight:500;
@@ -60,7 +65,7 @@ nav {
 .logo span {
   width:5px;
   height:5px;
-  background-color:rgb(90,169,130);
+  background-color:var(--green);
   display:inline-block;
   margin:0 4px;
 }
@@ -74,14 +79,14 @@ nav {
 .menu div {
   width:24px;
   height:2px;
-  background-color:white;
+  background-color:var(--white);
   position:relative;
   right:0;
   margin:4px 0;
 }
 .menu div:nth-child(2)  {
   width:33px;
-  background-color:rgb(90,169,130);
+  background-color:var(--green);
 }
 .menu div:last-child {
   width:15px;
@@ -162,7 +167,7 @@ p{
 }
 h1 {
   font-size:2.4rem;
-  color:rgb(90,169,130);
+  color:var(--green);
   margin:30px 0;
   font-family:"Catamaran";
 }
@@ -178,7 +183,7 @@ h2 {
   justify-content:space-between;
 }
 .year {
-  color:rgb(90,169,130);
+  color:var(--green);
   font-family:"Work Sans";
   font-size:1.7rem;
 }
@@ -214,6 +219,73 @@ button {
   outline-radius:4px;
 }
 
+/*career styling*/
+.career-sn {
+  background-color:var(--dark);
+  width:350px;
+  max-width:95vw;
+  padding:2rem;
+  border-radius:10px;
+  margin:10px 0;
+}
+.careers {
+  width:calc(100vw - 2.6rem);
+  margin:auto;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+.circle {
+  display:flex; 
+  min-height:30px;
+  align-items:center;
+}
+.circle .inner{
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background-color:var(--green);
+}
+.careers h1 {
+  text-align:left;
+}
+
+.circle .outer {
+  border:1px solid var(--green);
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  margin-left:-15px;
+}
+.career-desc p {
+  margin:0;
+  font-size:1rem;
+}
+.career-desc {
+  margin:0 0 0 10px;
+}
+.career-detail {
+  display:flex;
+}
+.flex {
+  display:flex;
+  justify-content:space-between;
+  padding:1.3rem;
+}
+.line {
+  width:2px;
+  height:100px;
+  background-color:var(--green);
+  margin-top:-5px;
+  margin-left:4px;
+}
+.careers h4 {
+  font-family:"Pragati Narrow";
+  font-size:1.5rem;
+  letter-spacing:2px;
+}
+
+
 
 @media (max-width:600px) {
   .project-desc {
@@ -239,3 +311,6 @@ button {
     width:calc(50vw - 2.6rem);
   }
 }
+
+
+
