@@ -3,6 +3,11 @@ import './App.css';
 import Nav from './Nav';
 import Home from './Home';
 import Particles from 'react-particles-js';
+import Footer from './Footer';
+import GoUp from './GoUp';
+import {BrowserRouter, Route} from 'react-router-dom';
+import About from './About';
+import ProjectSection from './ProjectSection';
 
 function App() {
 
@@ -61,10 +66,17 @@ function App() {
 
   return (
     <div className="App">
-      <Particles className='particles'
-        params={particleOptions} />
-      <Nav />
-      <Home />
+      <BrowserRouter>
+        <Particles className='particles'
+          params={particleOptions} 
+	/>
+        <Nav  />
+        <Route path='/' exact component={Home} />
+	<Route path='/about' exact component={About} />
+	<Route path='/project' exact component={ProjectSection} />
+	<Route path='/connect' exact component={Footer} />
+        <GoUp />
+      </BrowserRouter>
     </div>
   )
 }

@@ -13,6 +13,8 @@ import tictactoe1 from "./img/tictactoe-1.png";
 import tictactoe2 from "./img/tictactoe-2.png";
 import weather1 from "./img/weather-1.png";
 import weather2 from "./img/weather-2.png";
+import Footer from "./Footer";
+
 
 const images = {
   "huddle1":huddle1,
@@ -77,10 +79,12 @@ function ProjectSection() {
     />
   )
   return (
-    <div className="projects-area">
-      <h1>Projects</h1>
-      {allProjects}
-    </div>
+    <>
+      <div className="projects-area">
+        <h1>Projects</h1>
+        {allProjects}
+      </div>
+    </>
   )
 }
 

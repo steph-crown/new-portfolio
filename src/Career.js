@@ -30,7 +30,7 @@ function Career() {
   )
   return (
     <section>
-      <div className="flex">
+      <div className="career-flex">
 	<h1>Career</h1>
 	<h1><a href="">Get My CV</a></h1>
       </div>
