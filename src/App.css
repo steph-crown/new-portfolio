@@ -366,6 +366,66 @@ button {font-family:Catamaran; color:var(--dark);}
 .display h1 {
   color:var(--white);
 }
+.about {
+  padding:1.5rem;
+}
+.about h2 {
+  color:var(--white);
+  margin-top:-3rem;
+}
+.about img {
+  margin-left:-1rem;
+}
+.skillset {
+  margin-top:3rem !important;
+}
+li {
+  list-style:none;
+  font-family:"Catamaran";
+  font-weight:500;
+  padding:0.5rem 1rem;
+  border-radius:5px;
+  width:75vw;
+  max-width:600px;
+  background-color:var(--green);
+  color:var(--white);
+  margin:1rem 0;
+  clear:left;
+  float:right;
+  font-size:1.05rem;
+  text-align:right;
+  transition:0.3s;
+  box-shadow:-3px -3px 3px rgba(255,255,255,0.3);
+}
+li:hover {
+  background-color:var(--white);
+  color:var(--green);
+  box-shadow:3px 3px 3px rgba(255,255,255,0.3);
+}
+.skill h1 {margin-top:5rem; margin-bottom:0;}
+li:nth-child(2n-1) {
+  background-color:var(--white);
+  color:var(--green);
+  clear:right;
+  float:left;
+  text-align:left;
+  box-shadow:-3px -3px 3px rgba(255,255,255,0.3);
+}
+li:nth-child(2n):hover {
+  background-color:var(--green);
+  color:var(--white);
+  box-shadow:3px 3px 3px rgba(255,255,255,0.3);
+}
+li p {
+  margin-bottom:0;
+}
+.footer, .skill {
+  clear:both;
+}
+
+
+
+
 
 
 

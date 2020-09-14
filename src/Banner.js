@@ -13,7 +13,7 @@ function Banner() {
       </div>
 
       <div className="me">
-	<p>I am a frontend web developer based in Lagos, Nigeria with experience in developing beautifully designed websites and web applications for corporate and personal purposes.</p>
+	<p>I am a web developer (fullstack) and UI/UX designer based in Lagos, Nigeria with experience in developing beautifully designs for websites and web applications and implementing those designs for corporate and personal purposes.</p>
       </div>
 
       <div className="learn-more">

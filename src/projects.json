@@ -67,5 +67,18 @@
     "imageSrc2":"tictactoe2",
     "githubLink":"",
     "liveLink":""
+  },
+  {
+    "id":"07",
+    "name":"Overwood Landing Page",
+    "year":"2020",
+    "desc":"This is a figma design of the desktop view of the overwood.ng landing page.",
+    "technologies": [
+      "Figma"
+    ],
+    "imageSrc1":"overwood",
+    "imageSrc2":"overwood",
+    "githubLink":"https://www.figma.com/file/1VImLnQW50ZjbypjpR6MhP/overwood?node-id=0%3A1&viewport=382%2C1667%2C0.5",
+    "liveLink":"https://www.figma.com/file/1VImLnQW50ZjbypjpR6MhP/overwood?node-id=0%3A1&viewport=382%2C1667%2C0.5"
   }
 ]

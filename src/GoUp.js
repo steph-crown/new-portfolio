@@ -6,7 +6,7 @@ function GoUp() {
   return(
       <a href="#">
 	<div className="up">
-   	  <i className="fa fa-angle-up"></i>
+   	  <i className="fa fa-caret-up"></i>
         </div>
       </a>
   )

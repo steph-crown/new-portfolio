@@ -14,7 +14,7 @@ import tictactoe2 from "./img/tictactoe-2.png";
 import weather1 from "./img/weather-1.png";
 import weather2 from "./img/weather-2.png";
 import Footer from "./Footer";
-
+import overwood from "./img/overwoodPNG.png";
 
 const images = {
   "huddle1":huddle1,
@@ -29,7 +29,8 @@ const images = {
   "tictactoe2":tictactoe2,
   "weather1":weather1,
   "weather2":weather2,
-  "txt":"adek"
+  "txt":"adek",
+  "overwood":overwood
 }
 
 
