@@ -4,11 +4,9 @@ import React from 'react';
 
 function GoUp() {
   return(
-      <a href="#">
-	<div className="up">
-   	  <i className="fa fa-caret-up"></i>
-        </div>
-      </a>
+	<a href="#" className="up">
+   	  <i className="fa fa-angle-up"></i>
+        </a>
   )
 }
 
