@@ -64,10 +64,10 @@ function Project(props) {
 	<p data-aos="fade-up">{props.obj.desc}</p>
 	<div className="buttons">
 	  <a href={props.obj.githubLink} data-aos="flip-left">
-	    <button>View Live</button>
+	    <button>View Git</button>
 	  </a>
 	  <a href={props.obj.liveLink} data-aos="flip-right">
-	    <button>View Repo</button>
+	    <button>View Live</button>
 	  </a>
 	</div>
       </div>	
