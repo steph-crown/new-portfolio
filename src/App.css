@@ -14,7 +14,32 @@
   overflow: hidden;
   color:var(--white);
 }
+.anime-text small {
+  font-family:Catamaran;
+  font-weight:500;
+}
+.fa-i-cursor {
+  color:var(--green);
+  font-size:1rem;
+  margin-left:0.3rem;
+  animation-name:cursor;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+}
 
+@keyframes cursor {
+  from {opacity:1;}
+  to {opacity:0;}
+}
+
+
+
+.anime-text {
+  margin-bottom:0.7rem;
+  display:flex;
+  min-height:20px;
+  align-items:center;
+}
 .particles{
   position: fixed;
   top: 0;
@@ -111,6 +136,9 @@ nav {
   animation-iteration-count:infinite;
   animation-direction:alternate;
   margin:0 0 2px 7px;
+}
+.image {
+  z-index:-10000 !important;
 }
 .name h2 {
   font-family:'Catamaran', sans-serif;

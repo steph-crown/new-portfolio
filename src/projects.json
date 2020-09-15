@@ -9,8 +9,8 @@
     ],
     "imageSrc1":"imageReactor1",
     "imageSrc2":"imageReactor2",
-    "githubLink":"",
-    "liveLink":""
+    "githubLink":"https://github.com/Steph-crown/image-reactor",
+    "liveLink":"https://image-reactor.vercel.app"
   },
   {
     "id":"02",
@@ -21,19 +21,19 @@
     ],
     "imageSrc1":"sciCalc1",
     "imageSrc2":"sciCalc2",
-    "githubLink":"",
-    "liveLink":""
+    "githubLink":"https://github.com/steph-crown/calculator",
+    "liveLink":"https://steph-crown.github.io/calculator"
   },
   {                                                   "id":"03",
     "name":"Weather App",
     "year":"2020",
-    "desc":"This app gives the user the precise weather condition of any place according to the input. The input could be a country or state or a recognised area in the world.<br /> Data for the app is gotten from openweathermapapi.",
+    "desc":"This app gives the user the precise weather condition of any place according to the input. The input could be a country or state or a recognised area in the world. Data for the app is gotten from openweathermapapi.",
     "technologies":[                                    "HTML5","CSS3","Javascript","Fetch API(JS)"
     ],
     "imageSrc1":"weather1",
     "imageSrc2":"weather2",
-    "githubLink":"",
-    "liveLink":""
+    "githubLink":"https://github.com/steph-crown/weather",
+    "liveLink":"https://steph-crown.github.io/weather"
   },
   {                                                   "id":"04",
     "name":"Country Information app",
@@ -43,8 +43,8 @@
     ],
     "imageSrc1":"country1",
     "imageSrc2":"country2",
-    "githubLink":"",
-    "liveLink":""
+    "githubLink":"https://github.com/steph-crown/country",
+    "liveLink":"https://steph-crown.github.io/country"
   },
   {                                                   "id":"05",
     "name":"Landing page of Huddle",
@@ -54,8 +54,8 @@
     ],
     "imageSrc1":"huddle1",
     "imageSrc2":"huddle2",
-    "githubLink":"",
-    "liveLink":""
+    "githubLink":"https://github.com/Steph-crown/huddle-landing-page",
+    "liveLink":"https://steph-crown.github.io/huddle-landing-page"
   },
   {                                                   "id":"06",
     "name":"Tictactoe Game",
@@ -65,8 +65,8 @@
     ],
     "imageSrc1":"tictactoe1",
     "imageSrc2":"tictactoe2",
-    "githubLink":"",
-    "liveLink":""
+    "githubLink":"https://github.com/steph-crown/tictactoe",
+    "liveLink":"https://steph-crown.github.io/tictactoe"
   },
   {
     "id":"07",

@@ -3,7 +3,7 @@ import React from 'react';
 
 function CareerEach(props) {
   return(
-    <div className="career-sn">
+    <div className="career-sn" data-aos="slide-up">
       <h4>{props.careerObj.company}</h4>
       <div className="career-detail">
 	<div className="line-circle">
@@ -32,7 +32,7 @@ function Career() {
     <section>
       <div className="career-flex">
 	<h1>Career</h1>
-	<h1><a href="">Get My CV</a></h1>
+	<h1><a href="https://github.com/Steph-crown/resume/raw/master/CV_2020-09-15-011700.pdf">Get My CV</a></h1>
       </div>
       <div className="careers">
         {careerMarkup}

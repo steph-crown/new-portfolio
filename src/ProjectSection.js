@@ -13,7 +13,6 @@ import tictactoe1 from "./img/tictactoe-1.png";
 import tictactoe2 from "./img/tictactoe-2.png";
 import weather1 from "./img/weather-1.png";
 import weather2 from "./img/weather-2.png";
-import Footer from "./Footer";
 import overwood from "./img/overwoodPNG.png";
 
 const images = {
@@ -41,29 +40,37 @@ function Project(props) {
   return (
     <div className="project">
       <div className="images-part">
-        <div className="image"  style={{backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${props.image1})`}}>
+        <div 
+	  className="image"  
+	  style={{backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${props.image1})`}}
+	  data-aos="fade-down"
+	>
   	  <h1>{props.obj.id[0]}</h1>
         </div>
-        <div className="image" style={{backgroundImage:`linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(${props.image2})`}} >
+        <div 
+	  className="image" 
+	  style={{backgroundImage:`linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(${props.image2})`}} 
+	  data-aos="fade-up"
+	>
    	  <h1>{props.obj.id[1]}</h1>
         </div>
       </div>
       <div className="project-desc">
-	<h2>{props.obj.name}</h2>
-	<h4 className="year">Year <span>{props.obj.year}</span></h4>
-	<div className="technologies">
+	<h2 data-aos="fade-up">{props.obj.name}</h2>
+	<h4 className="year" data-aos="fade-up">Year <span>{props.obj.year}</span></h4>
+	<div className="technologies" data-aos="fade-up">
 	  {technologies}
 	</div>  
-	<p>{props.obj.desc}</p>
+	<p data-aos="fade-up">{props.obj.desc}</p>
 	<div className="buttons">
-	  <a href={props.obj.githubLink}>
+	  <a href={props.obj.githubLink} data-aos="flip-left">
 	    <button>View Live</button>
 	  </a>
-	  <a href={props.obj.liveLink}>
+	  <a href={props.obj.liveLink} data-aos="flip-right">
 	    <button>View Repo</button>
 	  </a>
 	</div>
-      </div>
+      </div>	
     </div>
   )
 }
@@ -81,7 +88,7 @@ function ProjectSection() {
   )
   return (
     <>
-      <div className="projects-area">
+      <div className="projects-area" data-aos="fade-up">
         <h1>Projects</h1>
         {allProjects}
       </div>
