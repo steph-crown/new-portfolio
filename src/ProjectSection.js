@@ -15,6 +15,10 @@ import weather1 from "./img/weather-1.png";
 import weather2 from "./img/weather-2.png";
 import overwood from "./img/overwoodPNG.png";
 
+import resume1 from "https://scessila.sirv.com/portfolio/resume1.PNG";
+import resume1 from "https://scessila.sirv.com/portfolio/resume2.PNG";
+
+
 const images = {
   "huddle1":huddle1,
   "huddle2":huddle2,
