@@ -1,35 +1,6 @@
 import React from 'react';
 import projectJson from "./projects.json";
 
-import country1 from "./img/country-1.png";
-import country2 from "./img/country-2.png";
-import imageReactor1 from "./img/image-reactor-1.png";
-import imageReactor2 from "./img/image-reactor-2.png";
-import sciCalc1 from "./img/sci-calc-1.png";
-import sciCalc2 from "./img/sci-calc-2.png";
-import tictactoe1 from "./img/tictactoe-1.png";
-import tictactoe2 from "./img/tictactoe-2.png";
-import weather1 from "./img/weather-1.png";
-import weather2 from "./img/weather-2.png";
-import overwood from "./img/overwoodPNG.png";
-
-
-const images = {
-  "country1":country1,
-  "country2":country2,
-  "imageReactor1":imageReactor1,
-  "imageReactor2":imageReactor2,
-  "sciCalc1":sciCalc1,
-  "sciCalc2":sciCalc2,
-  "tictactoe1":tictactoe1,
-  "tictactoe2":tictactoe2,
-  "weather1":weather1,
-  "weather2":weather2,
-  "txt":"adek",
-  "overwood":overwood
-}
-
-
 function Project(props) {
   var technologies = props.obj.technologies.map(tech => 
     <div className="tech" key={tech}>{tech}</div>
