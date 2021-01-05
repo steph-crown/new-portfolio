@@ -78,11 +78,11 @@ a:hover, .a:hover {
 nav {
   display:flex;
   height:100px;
-  width:100vw;
+  width:100%;
   align-items:center;
   justify-content:space-between;
   z-index:5;
-  padding:0 1.5rem;
+  padding: 0 calc(120 /1438 * 100vw);
 }
 .logo h4{
   border:2px solid var(--green);
