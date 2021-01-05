@@ -19,7 +19,7 @@
   /*height:40vh;*/
   overflow: hidden;
   color:var(--white);
-  padding: calc(120 /1438 * 100vw);
+/*   padding: calc(120 /1438 * 100vw); */
 }
 .anime-text small {
   font-family:Catamaran;
