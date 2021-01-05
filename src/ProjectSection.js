@@ -1,8 +1,6 @@
 import React from 'react';
 import projectJson from "./projects.json";
 
-import huddle1 from "./img/huddle-1.png";
-import huddle2 from "./img/huddle-2.png";
 import country1 from "./img/country-1.png";
 import country2 from "./img/country-2.png";
 import imageReactor1 from "./img/image-reactor-1.png";
