@@ -322,7 +322,7 @@ button {
 h1 a , h1 .a{font-size:1rem;}
 button {font-family:Catamaran; color:var(--dark);}
 .names {
-  padding:1.5rem;
+  padding: 0 calc(120 /1438 * 100vw);
 }
 .footer h2 {
   line-height:3rem !important;
@@ -370,10 +370,10 @@ button {font-family:Catamaran; color:var(--dark);}
   justify-content:center;
   align-items:center;
   position:fixed;
-  bottom:0;
+  bottom:calc(120 /1438 * 100vw);
   color:var(--white);
   font-size:1.4rem;
-  right:0;
+  right:calc(120 /1438 * 100vw);
   margin:1.5rem;
   border-radius:50%;
   cursor:pointer;
