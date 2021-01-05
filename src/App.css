@@ -492,5 +492,10 @@ li p {
   }
 }
 
+@media (min-width: 880px) {
+  .images-part, .project-desc {
+    width:50%;
+  }
+}
 
 
