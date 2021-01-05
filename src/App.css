@@ -126,13 +126,13 @@ nav {
 
 /*Banner Style*/
 .banner {
-  padding:0 1.5rem;
-  min-height: calc(100vh - 100px); 
+  padding: calc(120 /1438 * 100vw);
+/*   min-height: calc(100vh - 100px);  */
   font-size:2rem;
   display:flex;
   flex-direction:column;
   justify-content:center;
-  max-width:500px;
+  max-width:1000px;
 }
 .hi {
   display:flex;
