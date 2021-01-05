@@ -193,7 +193,7 @@ p{
     border-radius:0 10px 10px 0;
 }
 .projects-area {
-  padding:0 1.5rem;
+  padding:0 calc(120 /1438 * 100vw);
 }
 .project h1 {
   color:rgba(255,255,255,0.4);
@@ -481,7 +481,7 @@ li p {
     height:calc(var(--d) * var(--w));
   }
   .images-part {
-    justify-content:center;
+    justify-content:flex-start;
   }
   .project {
     flex-direction:row;
