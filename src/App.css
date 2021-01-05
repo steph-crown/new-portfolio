@@ -404,7 +404,8 @@ button {font-family:Catamaran; color:var(--dark);}
   color:var(--white);
 }
 .about {
-  padding:1.5rem;
+   padding: 0 calc(120 /1438 * 100vw);
+
 }
 .about h2 {
   color:var(--white);
