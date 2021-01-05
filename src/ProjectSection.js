@@ -18,8 +18,6 @@ import resume2 from "https://scessila.sirv.com/portfolio/resume2.PNG";
 
 
 const images = {
-  "huddle1":huddle1,
-  "huddle2":huddle2,
   "country1":country1,
   "country2":country2,
   "imageReactor1":imageReactor1,
