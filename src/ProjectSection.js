@@ -16,7 +16,7 @@ import weather2 from "./img/weather-2.png";
 import overwood from "./img/overwoodPNG.png";
 
 import resume1 from "https://scessila.sirv.com/portfolio/resume1.PNG";
-import resume1 from "https://scessila.sirv.com/portfolio/resume2.PNG";
+import resume2 from "https://scessila.sirv.com/portfolio/resume2.PNG";
 
 
 const images = {
