@@ -43,8 +43,8 @@
     ],
     "imageSrc1":"https://scessila.sirv.com/portfolio/country-1.png",
     "imageSrc2":"https://scessila.sirv.com/portfolio/country-2.png",
-    "githubLink":"https://github.com/steph-crown/country",
-    "liveLink":"https://steph-crown.github.io/country"
+    "githubLink":"https://github.com/steph-crown/countries",
+    "liveLink":"https://steph-crown.github.io/countries"
   },
   {                                                   "id":"06",
     "name":"Tictactoe Game",
