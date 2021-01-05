@@ -80,5 +80,20 @@
     "imageSrc2":"overwood",
     "githubLink":"https://www.figma.com/file/1VImLnQW50ZjbypjpR6MhP/overwood?node-id=0%3A1&viewport=382%2C1667%2C0.5",
     "liveLink":"https://www.figma.com/file/1VImLnQW50ZjbypjpR6MhP/overwood?node-id=0%3A1&viewport=382%2C1667%2C0.5"
+  },
+  {
+    "id":"08",
+    "name":"Resume Builder App",
+    "year":"2021",
+    "desc":"This is an app that helps generate a resume from different templates. It is not yet live.",
+    "technologies": [
+      "React",
+      "Node",
+      "Express"
+    ],
+    "imageSrc1":"resume1",
+    "imageSrc2":"resume2",
+    "githubLink":"https://github.com/Steph-crown",
+    "liveLink":"https://github.com/Steph-crown"
   }
 ]
