@@ -1,12 +1,11 @@
 import React from 'react';
 import Footer from './Footer';
-import quote from './img/quote.svg';
 
 function About() {
   return (
     <>
       <div className="about">
-	<img src={quote} alt="Hello"/>
+	<img src="https://scessila.sirv.com/portfolio/quote.svg" alt="Hello"/>
 	<h2>Hello World</h2>
 	<section className="content">
 	  <p data-aos="fade-up">I’m an enthusiastic web developer and UI/UX designer currently shaping the future of design in Nigeria. I am passionate about creating user centric, delightful and human experiences.</p>
