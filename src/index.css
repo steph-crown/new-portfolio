@@ -4,6 +4,5 @@ body {
   background-color:rgba(0,0,20,0.9); 
   overflow-x:hidden;
   scroll-behavior: smooth;
-  padding: calc(120 /1438 * 100vw) !important;
 }
 
