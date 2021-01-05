@@ -13,9 +13,6 @@ import weather1 from "./img/weather-1.png";
 import weather2 from "./img/weather-2.png";
 import overwood from "./img/overwoodPNG.png";
 
-import resume1 from "https://scessila.sirv.com/portfolio/resume1.PNG";
-import resume2 from "https://scessila.sirv.com/portfolio/resume2.PNG";
-
 
 const images = {
   "country1":country1,
@@ -80,8 +77,8 @@ function Project(props) {
 function ProjectSection() {
   var allProjects = projectJson.map(project => 
     <Project 
-      image1={images[project.imageSrc1]} 
-      image2={images[project.imageSrc2]}
+      image1={project.imageSrc1} 
+      image2={project.imageSrc2}
       key={project.name}
       obj={project}
     />
