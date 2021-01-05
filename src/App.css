@@ -370,7 +370,7 @@ button {font-family:Catamaran; color:var(--dark);}
   justify-content:center;
   align-items:center;
   position:fixed;
-  bottom:calc(120 /1438 * 100vw);
+  bottom:50px;
   color:var(--white);
   font-size:1.4rem;
   right:calc(120 /1438 * 100vw);
