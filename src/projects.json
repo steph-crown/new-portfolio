@@ -46,17 +46,6 @@
     "githubLink":"https://github.com/steph-crown/country",
     "liveLink":"https://steph-crown.github.io/country"
   },
-  {                                                   "id":"05",
-    "name":"Landing page of Huddle",
-    "year":"2020",
-    "desc":"This is a project challenve from the Frontend Masters website. I did it while learning CSS.",
-    "technologies":[                                    "HTML5","CSS3"
-    ],
-    "imageSrc1":"huddle1",
-    "imageSrc2":"huddle2",
-    "githubLink":"https://github.com/Steph-crown/huddle-landing-page",
-    "liveLink":"https://steph-crown.github.io/huddle-landing-page"
-  },
   {                                                   "id":"06",
     "name":"Tictactoe Game",
     "year":"2020",
