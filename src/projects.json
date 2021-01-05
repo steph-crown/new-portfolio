@@ -30,7 +30,7 @@
     "desc":"This app gives the user the precise weather condition of any place according to the input. The input could be a country or state or a recognised area in the world. Data for the app is gotten from openweathermapapi.",
     "technologies":[                                    "HTML5","CSS3","Javascript","Fetch API(JS)"
     ],
-    "imageSrc1":"weather1",
+    "imageSrc1":"weather1", 
     "imageSrc2":"weather2",
     "githubLink":"https://github.com/steph-crown/weather",
     "liveLink":"https://steph-crown.github.io/weather"
